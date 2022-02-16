@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.bg-light {
+    color: gray;
+}
+
+.bg-nav {
+    background-color: #afafaf;
+}
+
+.navbar .nav-link {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.navbar {
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 110px;
+}
+
+.hero {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 11%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 85%);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+}
+
+.hero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(34, 25, 25, 0.4);
+    z-index: -1;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #ee0979 0%, #ff6a00 51%, #ee0979 100%)
+}
+
+.btn-grad {
+    margin: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    border-color: black;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 0 8px #eee;
+}
+
+.iconbox {
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #ee0979 0%, #ff6a00 100%);
+    color: white;
+    font-size: 32px;
+    border-radius: 100px;
+    flex: none;
+    transition: all 0.5s;
+}
+
+.iconbox:hover {
+    background: linear-gradient(to bottom, #ff0c0c 0%, #be1ba3 100%);
+    width: 63px;
+    height: 63px;
+}
+
+.col-imgMe {
+    background-image: url(../img/me.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+}
+
+.text-gra {
+    font-size: 42px;
+    background: -webkit-linear-gradient(right, rgb(192, 8, 238), rgb(194, 26, 26));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.petkim {
+    width: 55%;
+    transition: all 0.5s;
+}
+
+.petkim:hover {
+    width: 65%;
+}
+
+.odin {
+    width: 55%;
+    transition: all 0.5s;
+}
+
+.odin:hover {
+    width: 65%;
+}
+
+.todo {
+    width: 55%;
+    transition: all 0.5s;
+}
+
+.todo:hover {
+    width: 65%;
+}
+
+.stueng {
+    width: 55%;
+    transition: all 0.5s;
+}
+
+.stueng:hover {
+    width: 65%;
+}
+
+.footer-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-top li {
+    color: rgb(180, 180, 180);
+}
+
+.footer-top li a {
+    text-decoration: none;
+}
+
+.footer-top a {
+    color: rgb(180, 180, 180);
+    transition: all 0.2s;
+}
+
+.logo-footer {
+    margin: 20px;
+    width: 45%;
+    transition: all 0.5s;
+}
+
+.logo-footer:hover {
+    width: 50%;
+}
+
+.footer-top a:hover {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 18px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-icons a {
+    width: 50px;
+    height: 50px;
+    background-color: #6c757d;
+    border-radius: 2px solid black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+.social-icons a:hover {
+    background: linear-gradient(to right, #ee0979 0%, #ff6a00 100%);
+    width: 55px;
+    height: 55px;
+}
+
+.social-icons a i {
+    color: white;
+    font-size: 28px;
+}
