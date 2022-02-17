@@ -138,6 +138,24 @@ body {
     width: 65%;
 }
 
+.clickme {
+    width: 45%;
+    transition: all 0.5s;
+}
+
+.clickme:hover {
+    width: 55%;
+}
+
+.weather {
+    width: 60%;
+    transition: all 0.5s;
+}
+
+.weather:hover {
+    width: 70%;
+}
+
 .stueng {
     width: 55%;
     transition: all 0.5s;
