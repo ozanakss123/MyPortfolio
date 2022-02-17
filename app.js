@@ -74,6 +74,13 @@ ScrollReveal().reveal('.abouticon', {
     interval: 300
 });
 
+ScrollReveal().reveal('.col-imgMe', {
+    delay: 350,
+    distance:"200px",
+    origin:"right",
+    mobile: false
+});
+
 ScrollReveal().reveal('.portfolio', {
     delay: 200,
     origin: "bottom",
@@ -134,5 +141,12 @@ ScrollReveal().reveal('.btn-web', {
     origin: "left",
     distance: "50px",
     interval: 200,
+    desktop: false
+});
+
+ScrollReveal().reveal('.imgMobile', {
+    delay: 700,
+    distance:"100px",
+    origin:"left",
     desktop: false
 });
