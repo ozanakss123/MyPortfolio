@@ -150,3 +150,5 @@ ScrollReveal().reveal('.imgMobile', {
     origin:"left",
     desktop: false
 });
+
+history.scrollRestoration = "manual";
