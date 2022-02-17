@@ -37,14 +37,16 @@ ScrollReveal().reveal('.intro1', {
     distance:"200px",
     scale: 0.6,
     origin:"left",
-    mobile: false,
+    mobile: false
 });
+
 ScrollReveal().reveal('.intro2', {
     delay: 2800,
     distance:"100px",
     origin:"left",
     mobile: false
 });
+
 ScrollReveal().reveal('.intro3', {
     delay: 3100,
     distance:"100px",
@@ -103,4 +105,34 @@ ScrollReveal().reveal('.contactbutton', {
     delay: 800,
     origin: "left",
     distance: "500px",
+});
+
+ScrollReveal().reveal('.intro1', {
+    delay: 100,
+    distance:"100px",
+    origin:"left",
+    desktop: false
+});
+
+ScrollReveal().reveal('.intro2', {
+    delay: 350,
+    distance:"100px",
+    origin:"left",
+    desktop: false
+});
+
+ScrollReveal().reveal('.intro3', {
+    delay: 600,
+    distance:"100px",
+    origin:"left",
+    desktop: false
+});
+
+ScrollReveal().reveal('.btn-web', {
+    delay: 800,
+    opacity: 0,
+    origin: "left",
+    distance: "50px",
+    interval: 200,
+    desktop: false
 });
