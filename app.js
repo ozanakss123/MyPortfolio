@@ -109,7 +109,7 @@ ScrollReveal().reveal('.contactslide2', {
 });
 
 ScrollReveal().reveal('.contactbutton', {
-    delay: 800,
+    delay: 650,
     origin: "left",
     distance: "500px",
 });
