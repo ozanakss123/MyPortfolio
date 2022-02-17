@@ -26,3 +26,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     })
 })
+
+ScrollReveal().reveal('.navbar', {
+    delay: 2500
+});
