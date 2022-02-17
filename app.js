@@ -28,5 +28,79 @@ window.addEventListener('DOMContentLoaded', () => {
 })
 
 ScrollReveal().reveal('.navbar', {
-    delay: 2500
+    delay: 2500,
+    mobile: false
+});
+
+ScrollReveal().reveal('.intro1', {
+    delay: 2500,
+    distance:"200px",
+    scale: 0.6,
+    origin:"left",
+    mobile: false,
+});
+ScrollReveal().reveal('.intro2', {
+    delay: 2800,
+    distance:"100px",
+    origin:"left",
+    mobile: false
+});
+ScrollReveal().reveal('.intro3', {
+    delay: 3100,
+    distance:"100px",
+    origin:"left",
+    mobile: false
+});
+ScrollReveal().reveal('.btn-web', {
+    delay: 3400,
+    opacity: 0,
+    origin: "left",
+    distance: "50px",
+    interval: 300,
+    mobile: false
+});
+ScrollReveal().reveal('.aboutme', {
+    delay: 100,
+    origin: "left",
+    distance: "100px",
+});
+
+ScrollReveal().reveal('.abouticon', {
+    delay: 300,
+    origin: "left",
+    distance: "30px",
+    interval: 300
+});
+
+ScrollReveal().reveal('.portfolio', {
+    delay: 200,
+    origin: "bottom",
+    distance: "200px",
+    interval: 100
+});
+
+ScrollReveal().reveal('.project', {
+    delay: 200,
+    distance: "50px",
+    interval: 300
+});
+
+
+ScrollReveal().reveal('.contactslide1', {
+    delay: 200,
+    origin: "bottom",
+    distance: "200px",
+    interval: 100
+});
+
+ScrollReveal().reveal('.contactslide2', {
+    delay: 500,
+    origin: "bottom",
+    distance: "100px",
+});
+
+ScrollReveal().reveal('.contactbutton', {
+    delay: 800,
+    origin: "left",
+    distance: "500px",
 });
