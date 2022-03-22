@@ -93,6 +93,7 @@ body {
     border-radius: 100px;
     flex: none;
     transition: all 0.5s;
+    cursor: copy;
 }
 
 .iconbox:hover {
